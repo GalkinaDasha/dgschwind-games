@@ -1,17 +1,25 @@
 plugins {
-    id 'java'
+    
+	id 'java'
+
+	id 'jacoco'
 }
+
 
 repositories {
     mavenCentral()
 }
 
+
 dependencies {
     testImplementation 'junit:junit:4.13.1'
 }
 
+
 group = 'org.douggschwind'
+
 version = '1.0-SNAPSHOT'
+
 description = 'Games'
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
